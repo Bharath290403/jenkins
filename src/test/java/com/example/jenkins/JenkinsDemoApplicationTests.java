@@ -1,6 +1,7 @@
 package com.example.jenkins;
 
 
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
@@ -10,7 +11,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class JenkinsDemoApplicationTests {
 
-	Logger loggers = LoggerFactory.getLogger(JenkinsDemoApplicationTests.class);
+	Logger logger = LoggerFactory.getLogger(JenkinsDemoApplicationTests.class);
 	@Test
 	void contextLoads() {
 		logger.info("In Testing......");
