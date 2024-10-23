@@ -11,6 +11,7 @@ public class JenkinsDemoApplication {
 
 	public static Logger logger = LoggerFactory.getLogger(JenkinsDemoApplication.class);
 
+
 	public static void main(String[] args) {
 
 		logger.info("This is the logger statement");
