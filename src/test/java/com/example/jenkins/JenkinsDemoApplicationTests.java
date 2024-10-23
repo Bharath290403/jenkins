@@ -10,7 +10,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class JenkinsDemoApplicationTests {
 
-	Logger logger = LoggerFactory.getLogger(JenkinsDemoApplicationTests.class);
+	Logger loggers = LoggerFactory.getLogger(JenkinsDemoApplicationTests.class);
 	@Test
 	void contextLoads() {
 		logger.info("In Testing......");
