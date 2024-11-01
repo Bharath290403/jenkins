@@ -14,7 +14,7 @@ class JenkinsDemoApplicationTests {
 	Logger logger = LoggerFactory.getLogger(JenkinsDemoApplicationTests.class);
 	@Test
 	void contextLoads() {
-		logger.info("In Testing......");
+		logger.info("In Testing......")
 		logger.info("New line");
 		Assertions.assertEquals(true,true);
 	}
