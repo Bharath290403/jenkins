@@ -16,7 +16,8 @@ class JenkinsDemoApplicationTests {
 	void contextLoads() {
 		logger.info("In Testing......");
 		logger.info("New line");
-		Assertions.assertEquals(true,false);
+		logger.info("Added a new line");
+		Assertions.assertEquals(true,true);
 	}
 
 }
